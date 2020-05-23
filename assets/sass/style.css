@@ -1,0 +1,391 @@
+/* ---------------------------------------------------
+    GOOGLE FONTS IMPORT
+----------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans|Nunito:400,600,700&display=swap");
+/* ---------------------------------------------------
+    VARIABLE DECLARATION
+----------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: none;
+  font-family: "Nunito", sans-serif;
+  background: #fff;
+}
+
+/* ---------------------------------------------------
+    CARD STYLING
+----------------------------------------------------- */
+#global {
+  padding: 20px;
+}
+
+#global h1 {
+  font-size: 1.4rem;
+  margin-bottom: 3rem;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#global .main-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#global .main-wrapper .product-box {
+  width: 50%;
+  max-width: 50%;
+  margin: 0 20px;
+  position: relative;
+}
+
+#global .main-wrapper .product-box h4.ramjas {
+  color: #1a98d2;
+}
+
+#global .main-wrapper .product-box h4.ramjas span:last-child {
+  color: #333;
+}
+
+#global .main-wrapper .product-box h5#ramjas-offer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#global .main-wrapper .product-box h5#ramjas-offer img {
+  max-width: 90px;
+  z-index: -1;
+}
+
+#global .main-wrapper .product-box p#discount-offer,
+#global .main-wrapper .product-box p#discount-offer a {
+  color: #3ab296;
+  text-decoration: none;
+}
+
+#global .main-wrapper .product-box div#product-card {
+  position: relative;
+}
+
+#global .main-wrapper .product-box div#product-card img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+#global .main-wrapper .product-box div#overlapping-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10px;
+  position: absolute;
+  bottom: 20px;
+}
+
+#global .main-wrapper .product-box div#overlapping-area .buttons a {
+  font-size: 14px;
+  color: #333;
+  background: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+#global .main-wrapper .product-box div#overlapping-area p#info {
+  margin-left: 70px;
+  font-size: 16px;
+  color: #fff;
+  z-index: 99;
+}
+
+div#desc {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.information h4#college-name {
+  color: #333;
+  font-weight: 900;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+}
+
+.information h4#college-name span {
+  font-size: 12px;
+}
+
+.information h4#college-name span.checked {
+  color: #ffa500;
+}
+
+.information p {
+  font-size: 14px;
+}
+
+.information p:nth-child(2) span:first-child {
+  color: #333;
+  font-weight: 600;
+}
+
+.information p:nth-child(2) span:last-child {
+  color: #b1b1b1;
+  font-weight: 500;
+}
+
+div#price-wrapper p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 14px;
+}
+
+div#price-wrapper h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: #ef1f27;
+  font-size: 2rem;
+}
+
+.product-box {
+  border: 1px solid #c2c2c2;
+  border-radius: 5px;
+}
+
+.product-box div#promoted {
+  position: absolute;
+  top: -20px;
+  right: -2px;
+  z-index: 99;
+}
+
+.product-box div#promoted img {
+  max-width: 160px;
+}
+
+.product-box div#rating {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  z-index: 9;
+  text-align: center;
+  background: #ffa500;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.product-box div#rating h6 span:first-child {
+  font-size: 18px;
+}
+
+.product-box div#rating h6 span:last-child {
+  font-size: 16px;
+  margin-left: 1px;
+}
+
+.product-box div#rating p {
+  font-size: 14px;
+}
+
+.product-box div#product-card a {
+  position: relative;
+  display: inline-block;
+}
+
+.product-box div#product-card > a:after {
+  content: "";
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.9)));
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  border-radius: 5px 5px 0 0;
+}
+
+.product-box div#overlapping-area .buttons a {
+  z-index: 999;
+}
+
+.product-box p.match-percentage {
+  color: #b1b1b1;
+}
+
+.product-box p.match-percentage span:first-child {
+  color: #3ab296;
+  font-weight: 700;
+}
+
+.product-box p.match-percentage span:not(:first-child) {
+  color: #333;
+  font-weight: 700;
+}
+
+.product-box .available-offer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1rem;
+  margin-right: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product-box .available-offer h5#offer {
+  background: #ccf5e7;
+  padding: 8px 16px;
+  border-radius: 0 20px 20px 0;
+}
+
+.product-box .available-offer h5#offer span {
+  color: #3ab296;
+}
+
+.product-box .available-offer h5#offer a {
+  color: #1a98d2;
+  text-decoration: none;
+}
+
+.product-box .available-offer h5#service-offerings {
+  color: #3ab296;
+}
+
+/* ---------------------------------------------------
+    MEDIA QUERRIES
+----------------------------------------------------- */
+@media (max-width: 768px) {
+  #global h1 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main-wrapper .product-box {
+    min-width: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-top: 20px !important;
+  }
+  div#overlapping-area {
+    min-width: 100%;
+    padding: 0;
+  }
+  div#overlapping-area .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  div#overlapping-area .buttons a {
+    font-size: 8px !important;
+    padding: 2px 4px !important;
+    margin: 0 2px;
+  }
+  #global .main-wrapper .product-box div#overlapping-area p#info {
+    margin-left: 8px;
+    font-size: 10px !important;
+  }
+  img.product-img {
+    height: 150px;
+  }
+  .information h4#college-name {
+    font-size: 14px;
+    line-height: 1.2rem;
+  }
+  .information p span {
+    font-size: 12px;
+  }
+  div#desc {
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+  }
+  .product-box .available-offer h5#offer {
+    padding: 2px 4px;
+    border-radius: 0 10px 10px 0;
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  .product-box .available-offer h5#service-offerings {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+  div#overlapping-area p#info {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .available-offer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .available-offer h5 {
+    width: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  h5#service-offerings {
+    text-align: center;
+    margin: 5px 0;
+  }
+  div#overlapping-area p#info {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
